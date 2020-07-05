@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	background-color: $blue;
+	color: $white;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px 20px;
+	outline: none;
+	min-width: 200px;
+	transition: $dur $ease;
+    position: relative;
+    
+    &:hover {
+        color: $black;
+        transition: $dur $ease;
+    }
+}

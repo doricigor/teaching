@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+## Navigation
+--------------------------------------------------------------*/
+.nav__wrapper {
+
+}
+
+.nav {
+
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list-item {
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.nav__list-item-link {
+    color: $gray;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 2px;
+    transition: $dur $ease;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover {
+        color: $red;
+        transition: $dur $ease;
+        text-decoration: none;
+    }
+}
