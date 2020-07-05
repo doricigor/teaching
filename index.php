@@ -6,7 +6,7 @@
     <div class="site-content">
         <main class="site-main">
             <div class="container">
-                <p>test</p>
+                
             </div>
         </main>
     </div>
