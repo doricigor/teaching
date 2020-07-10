@@ -4,6 +4,7 @@
     <title>Starter v1</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -29,6 +30,11 @@
                     </li>
                 </ul>
             </nav>
+            <div class="nav__login">
+                <a class="nav__login-link" href="javascript:;">Login</a>
+                <span>|</span>
+                <a class="nav__login-link" href="javascript:;">Register</a>
+            </div>
         </div>
     </div>
 </header>

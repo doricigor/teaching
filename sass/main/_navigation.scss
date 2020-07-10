@@ -2,7 +2,8 @@
 ## Navigation
 --------------------------------------------------------------*/
 .nav__wrapper {
-
+    padding: 37px 30px 37px 45px;
+    position: relative;
 }
 
 .nav {
@@ -15,7 +16,7 @@
 
 .nav__list-item {
     &:not(:last-child) {
-        margin-right: 20px;
+        margin-right: 48px;
     }
 }
 
@@ -26,11 +27,35 @@
     letter-spacing: 2px;
     transition: $dur $ease;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: $font-main;
 
     &:hover {
         color: $red;
         transition: $dur $ease;
         text-decoration: none;
+    }
+}
+
+.nav__login {
+    position: absolute;
+    right: -56px;
+    top: 90px;
+    transform: rotate(90deg);
+    
+    span {
+        color: $red;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0 3px;
+    }
+}
+
+.nav__login-link {
+    @extend .nav__list-item-link;
+    color: $red;
+
+    &:hover {
+        color: $gray;
     }
 }
