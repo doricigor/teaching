@@ -13,10 +13,14 @@ html {
 
 .container {
 	@media screen and (min-width: 1200px) {
-        max-width: 1450px;
+        max-width: 1460px;
     }
 }
 
 .container--alt {
 	max-width: 1650px;
+}
+
+.site-content {
+	margin-top: -102px;
 }
