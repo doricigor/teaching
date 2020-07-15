@@ -9,10 +9,26 @@
 
 .section-title {
 	color: $black;
-	font-size: 30px;
+	font-size: 77px;
 	font-weight: 700;
-	text-transform: uppercase;
-    letter-spacing: .4px;
+	font-family: $font-second;
+    letter-spacing: 1.8px;
+}
+
+.section-title--line {
+	position: relative;
+	display: inline-block;
+
+	&::after {
+        content: '';
+        background-color: $red;
+        height: 3px;
+		width: 66%;
+		position: absolute;
+		left: 6px;
+		bottom: -14px;
+        transition: $dur $ease;
+    }
 }
 
 .section-title--small {

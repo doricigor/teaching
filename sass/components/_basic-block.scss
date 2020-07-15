@@ -1,0 +1,44 @@
+.basic-block {
+    background-color: $gray;
+    padding: 90px 15px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.basic-block__title {
+    font-size: 80px;
+    letter-spacing: .9px;
+    color: $white;
+    font-weight: 500;
+    font-family: $font-main;
+    margin-bottom: 10px;
+
+    sup {
+        font-weight: 600;
+        font-size: 80%;
+        top: -15px;
+    }
+}
+
+.basic-block__title-bold {
+    font-weight: 600;
+}
+
+.basic-block__title-tiny {
+    font-weight: 400;
+}
+
+.basic-block__title-small {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.basic-block__subtitle {
+    display: block;
+    font-size: 52px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: $white;
+}
