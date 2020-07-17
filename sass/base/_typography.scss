@@ -32,5 +32,10 @@
 }
 
 .section-title--small {
-	font-size: 20px;
+	font-size: 50px;
+	letter-spacing: 2.17px;
+
+	sup {
+		color: $red;
+	}
 }

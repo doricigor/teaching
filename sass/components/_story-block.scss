@@ -20,10 +20,17 @@
     display: flex;
     padding-left: 153px;
     padding-right: 50px;
+    position: relative;
 }
 
 .story-block__content {
+    
+}
 
+.story-block__content-mark {
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
 
 .story-block__content-title {

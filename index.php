@@ -32,6 +32,7 @@
                             <img class="story-block__img" src="img/story1.png" alt="Story img">
                         </div>
                         <div class="col-lg-6 story-block__content-wrapper">
+                                <img class="story-block__content-mark" src="img/w-mark.png" alt="mark">
                             <div class="story-block__content">
                                 <h2 class="story-block__content-title section-title section-title--line">Private</h2>
                                 <span class="story-block__content-subtitle">For peace and quiet</span>
@@ -51,6 +52,7 @@
                             <img class="story-block__img" src="img/story2.png" alt="Story img">
                         </div>
                         <div class="col-lg-6 story-block__content-wrapper">
+                                <img class="story-block__content-mark" src="img/w-mark.png" alt="mark">
                             <div class="story-block__content">
                                 <h2 class="story-block__content-title section-title section-title--line">Shared</h2>
                                 <span class="story-block__content-subtitle">For peace and quiet</span>
@@ -60,6 +62,77 @@
                         </div>
                    </div>
                </div>
+           </div>
+
+           <!-- List section -->
+           <div class="list-section">
+                <div class="container container--alt">
+                    <div class="list-section__container">
+                        <h2 class="list-section__title section-title section-title--small">ES<sup>2</sup> Features</h2>
+                        <div class="row list-section__row">
+                            <div class="col-lg-3 list-section__item-wrap">
+                                <div class="list-section__item">
+                                    <div class="list-section__item-img-wrap">
+                                        <img class="list-section__item-img" src="img/list-icon-1.png" alt="list img">
+                                    </div>
+                                    <div class="list-section__item-title-wrap">
+                                        <span class="list-section__item-title">Get up and <br> running quickly</span>
+                                    </div>
+                                    <ul class="list-section__item-list">
+                                        <li class="list-section__item-list-item">Fully furnished, move-in ready offices</li>
+                                        <li class="list-section__item-list-item">24/7 secured access</li>
+                                        <li class="list-section__item-list-item">High-speed fiber internet</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 list-section__item-wrap">
+                                <div class="list-section__item">
+                                    <div class="list-section__item-img-wrap">
+                                        <img class="list-section__item-img" src="img/list-icon-2.png" alt="list img">
+                                    </div>
+                                    <div class="list-section__item-title-wrap">
+                                        <span class="list-section__item-title">Maintain a <br> professional <br> presence</span>
+                                    </div>
+                                    <ul class="list-section__item-list">
+                                        <li class="list-section__item-list-item">P.O. Box and receptionist services*</li>
+                                        <li class="list-section__item-list-item">VOIP Phone and printing services*</li>
+                                        <li class="list-section__item-list-item">On-site IT assistance*</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 list-section__item-wrap">
+                                <div class="list-section__item">
+                                    <div class="list-section__item-img-wrap">
+                                        <img class="list-section__item-img" src="img/list-icon-3.png" alt="list img">
+                                    </div>
+                                    <div class="list-section__item-title-wrap">
+                                        <span class="list-section__item-title">Share amenities and <br> network with others</span>
+                                    </div>
+                                    <ul class="list-section__item-list">
+                                        <li class="list-section__item-list-item">3 state-of-the-art conference rooms*</li>
+                                        <li class="list-section__item-list-item">Cafe & lounge with coffee and beverages</li>
+                                        <li class="list-section__item-list-item">Frequent networking events</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 list-section__item-wrap">
+                                <div class="list-section__item">
+                                    <div class="list-section__item-img-wrap">
+                                        <img class="list-section__item-img" src="img/list-icon-4.png" alt="list img">
+                                    </div>
+                                    <div class="list-section__item-title-wrap">
+                                        <span class="list-section__item-title">Stay <br> flexible</span>
+                                    </div>
+                                    <ul class="list-section__item-list">
+                                        <li class="list-section__item-list-item">Customizable membership plans</li>
+                                        <li class="list-section__item-list-item">Easily add members, desks and offices</li>
+                                        <li class="list-section__item-list-item">Discounts on longer-term memberships</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
            </div>
         </main>
     </div>
