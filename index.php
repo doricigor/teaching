@@ -126,12 +126,25 @@
                                     <ul class="list-section__item-list">
                                         <li class="list-section__item-list-item">Customizable membership plans</li>
                                         <li class="list-section__item-list-item">Easily add members, desks and offices</li>
-                                        <li class="list-section__item-list-item">Discounts on longer-term memberships</li>
+                                        <li class="list-section__item-list-item">Discounts on longer-term <br> memberships</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <span class="list-section__note"><sup>*</sup>Optional for an additional fee</span>
+                </div>
+           </div>
+
+           <!-- Hero section -->
+           <div class="hero-section">
+                <div class="container hero-section__container">
+                    <h2 class="hero-section__title section-title section-title--small">Get a day pass today.</h2>
+                    <p class="hero-section__text">Get full access to our shared amenities, including 3 state-of-the-art conference rooms. View our <br> <a class="hero-section__text-link" href="javascript:;">conference room availabilities</a> and contact us to make a reservation.</p>
+                    <a class="hero-section__link" href="javascript:;">Contact</a>
+                </div>
+                <div class="hero-section__img-wrap">
+                    <img class="hero-section__img" src="img/hero-img.png" alt="Hero img">
                 </div>
            </div>
         </main>
