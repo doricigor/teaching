@@ -147,6 +147,106 @@
                     <img class="hero-section__img" src="img/hero-img.png" alt="Hero img">
                 </div>
            </div>
+
+           <!-- Logo section -->
+           <div class="logo-section">
+               <div class="container">
+                   <h2 class="section-title section-title--small logo-section__title">Our members</h2>
+                   <div class="logo-section__wrap">
+                        <div class="row">
+                            <div class="col-lg-3 logo-section__box-wrap">
+                                <div class="logo-section__box">
+                                    <img class="logo-section__box-img" src="img/logo-1.png" alt="Logo img">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 logo-section__box-wrap">
+                                <div class="logo-section__box">
+                                    <img class="logo-section__box-img" src="img/logo-2.png" alt="Logo img">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 logo-section__box-wrap">
+                                <div class="logo-section__box">
+                                    <img class="logo-section__box-img" src="img/logo-3.png" alt="Logo img">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 logo-section__box-wrap">
+                                <div class="logo-section__box">
+                                    <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+
+           <!-- Box section -->
+           <div class="boxes">
+               <div class="container container--alt">
+                   <a class="boxes__link" href="javascript:;">All events</a>
+                   <div class="row">
+                       <div class="col-lg-4 boxes__box-wrap">
+                           <div class="boxes__box">
+                               <div class="boxes__box-left">
+                                   <div class="boxes__box-left-date">
+                                       <span class="boxes__box-left-date-num">09</span>
+                                       <span class="boxes__box-left-date-month">Sep</span>
+                                   </div>
+                               </div>
+                               <div class="boxes__box-right">
+                                   <div class="boxes__box-right-img-wrap">
+                                       <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
+                                   </div>
+                                   <div class="boxes__box-right-content">
+                                       <span class="boxes__box-right-content-title">Monthly breakfast</span>
+                                       <p class="boxes__box-right-content-text">Join us every month for coffee, breakfast and networking.</p>
+                                       <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-4 boxes__box-wrap">
+                           <div class="boxes__box">
+                               <div class="boxes__box-left">
+                                   <div class="boxes__box-left-date">
+                                       <span class="boxes__box-left-date-num">09</span>
+                                       <span class="boxes__box-left-date-month">Sep</span>
+                                   </div>
+                               </div>
+                               <div class="boxes__box-right">
+                                   <div class="boxes__box-right-img-wrap">
+                                       <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
+                                   </div>
+                                   <div class="boxes__box-right-content">
+                                       <span class="boxes__box-right-content-title">Monthly breakfast</span>
+                                       <p class="boxes__box-right-content-text">Join us every month for coffee, breakfast and networking.</p>
+                                       <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-4 boxes__box-wrap">
+                           <div class="boxes__box">
+                               <div class="boxes__box-left">
+                                   <div class="boxes__box-left-date">
+                                       <span class="boxes__box-left-date-num">09</span>
+                                       <span class="boxes__box-left-date-month">Sep</span>
+                                   </div>
+                               </div>
+                               <div class="boxes__box-right">
+                                   <div class="boxes__box-right-img-wrap">
+                                       <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
+                                   </div>
+                                   <div class="boxes__box-right-content">
+                                       <span class="boxes__box-right-content-title">Monthly breakfast</span>
+                                       <p class="boxes__box-right-content-text">Join us every month for coffee, breakfast and networking.</p>
+                                       <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
         </main>
     </div>
 <?php

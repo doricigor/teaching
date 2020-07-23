@@ -99,11 +99,15 @@
     font-weight: 500;
     transition: $dur $ease;
     font-family: $font-main;
+    display: block;
 
     &:hover {
-        transition: $dur $ease;
         text-decoration: none;
         color: $silver;
+
+        .underline {
+            background-size: 100% 100%;
+        }
     }
 }
 

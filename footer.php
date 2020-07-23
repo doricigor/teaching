@@ -30,21 +30,31 @@
                     <span class="footer__right-list-title">Apply now</span>
                     <ul class="footer__right-list">
                         <li class="footer__right-list-item">
-                            <a class="footer__right-list-link" href="javascript:;">Login</a>
+                            <a class="footer__right-list-link" href="javascript:;">
+                                <span class="underline">Login</span>
+                            </a>
                         </li>
                         <li class="footer__right-list-item">
-                            <a class="footer__right-list-link" href="javascript:;">Register</a>
+                            <a class="footer__right-list-link" href="javascript:;">
+                                <span class="underline">Register</span>
+                            </a>
                         </li>
                     </ul>
                     <ul class="footer__right-list">
                         <li class="footer__right-list-item">
-                            <a class="footer__right-list-link" href="javascript:;">2901 Carlson Drive, Ste. 300 Hammond, Indiana 46323</a>
+                            <a class="footer__right-list-link" href="javascript:;">
+                                <span class="underline">2901 Carlson Drive, Ste. 300 Hammond, Indiana 46323</span>
+                            </a>
                         </li>
                         <li class="footer__right-list-item">
-                            <a class="footer__right-list-link" href="javascript:;">219-844-2901</a>
+                            <a class="footer__right-list-link" href="javascript:;">
+                                <span class="underline">219-844-2901</span>
+                            </a>
                         </li>
                         <li class="footer__right-list-item">
-                            <a class="footer__right-list-link" href="javascript:;">info@executivesuites2.com</a>
+                            <a class="footer__right-list-link" href="javascript:;">
+                                <span class="underline">info@executivesuites2.com</span>
+                            </a>
                         </li>
                     </ul>
                 </div>

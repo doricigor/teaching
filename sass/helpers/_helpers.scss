@@ -30,6 +30,15 @@ input::-ms-clear {
 	display: none;
 }
 
+// Underline line for multiple rows - hover effect
+.underline {
+    width: calc(100%);
+    background-image: linear-gradient(transparent calc(100% - 1px), $white 1px);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 1s;
+}
+
 /* Internet Explorer ruls */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
