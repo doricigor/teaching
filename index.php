@@ -181,68 +181,76 @@
 
            <!-- Box section -->
            <div class="boxes">
-               <div class="container container--alt">
-                   <a class="boxes__link" href="javascript:;">All events</a>
-                   <div class="row">
+               <div class="container">
+                   <div class="boxes__link-wrap">
+                        <a class="boxes__link" href="javascript:;">All events</a>
+                   </div>
+                   <div class="row boxes__row">
                        <div class="col-lg-4 boxes__box-wrap">
-                           <div class="boxes__box">
-                               <div class="boxes__box-left">
-                                   <div class="boxes__box-left-date">
-                                       <span class="boxes__box-left-date-num">09</span>
-                                       <span class="boxes__box-left-date-month">Sep</span>
-                                   </div>
-                               </div>
-                               <div class="boxes__box-right">
-                                   <div class="boxes__box-right-img-wrap">
-                                       <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
-                                   </div>
-                                   <div class="boxes__box-right-content">
-                                       <span class="boxes__box-right-content-title">Monthly breakfast</span>
-                                       <p class="boxes__box-right-content-text">Join us every month for coffee, breakfast and networking.</p>
-                                       <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
-                                   </div>
-                               </div>
-                           </div>
+                           <a class="boxes__box-outer" href="javascript:;">
+                                <div class="boxes__box">
+                                    <div class="boxes__box-left">
+                                        <div class="boxes__box-left-date">
+                                            <span class="boxes__box-left-date-num">09</span>
+                                            <span class="boxes__box-left-date-month">Sep</span>
+                                        </div>
+                                    </div>
+                                    <div class="boxes__box-right">
+                                        <div class="boxes__box-right-img-wrap">
+                                            <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
+                                        </div>
+                                        <div class="boxes__box-right-content">
+                                            <span class="boxes__box-right-content-title">HAPPY HOUR</span>
+                                            <p class="boxes__box-right-content-text">Mingle with other members and enjoy complimentary beer and wine.</p>
+                                            <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
+                                        </div>
+                                    </div>
+                                </div>
+                           </a>
                        </div>
                        <div class="col-lg-4 boxes__box-wrap">
-                           <div class="boxes__box">
-                               <div class="boxes__box-left">
-                                   <div class="boxes__box-left-date">
-                                       <span class="boxes__box-left-date-num">09</span>
-                                       <span class="boxes__box-left-date-month">Sep</span>
-                                   </div>
-                               </div>
-                               <div class="boxes__box-right">
-                                   <div class="boxes__box-right-img-wrap">
-                                       <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
-                                   </div>
-                                   <div class="boxes__box-right-content">
-                                       <span class="boxes__box-right-content-title">Monthly breakfast</span>
-                                       <p class="boxes__box-right-content-text">Join us every month for coffee, breakfast and networking.</p>
-                                       <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
-                                   </div>
-                               </div>
-                           </div>
+                            <a class="boxes__box-outer" href="javascript:;">
+                                <div class="boxes__box">
+                                    <div class="boxes__box-left">
+                                        <div class="boxes__box-left-date">
+                                            <span class="boxes__box-left-date-num">24</span>
+                                            <span class="boxes__box-left-date-month">Sep</span>
+                                        </div>
+                                    </div>
+                                    <div class="boxes__box-right">
+                                        <div class="boxes__box-right-img-wrap">
+                                            <img class="boxes__box-right-img" src="img/box-2.png" alt="Box img">
+                                        </div>
+                                        <div class="boxes__box-right-content">
+                                            <span class="boxes__box-right-content-title">HAPPY HOUR</span>
+                                            <p class="boxes__box-right-content-text">Mingle with other members and enjoy complimentary beer and wine.</p>
+                                            <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                        </div>
                        <div class="col-lg-4 boxes__box-wrap">
-                           <div class="boxes__box">
-                               <div class="boxes__box-left">
-                                   <div class="boxes__box-left-date">
-                                       <span class="boxes__box-left-date-num">09</span>
-                                       <span class="boxes__box-left-date-month">Sep</span>
-                                   </div>
-                               </div>
-                               <div class="boxes__box-right">
-                                   <div class="boxes__box-right-img-wrap">
-                                       <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
-                                   </div>
-                                   <div class="boxes__box-right-content">
-                                       <span class="boxes__box-right-content-title">Monthly breakfast</span>
-                                       <p class="boxes__box-right-content-text">Join us every month for coffee, breakfast and networking.</p>
-                                       <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
-                                   </div>
-                               </div>
-                           </div>
+                            <a class="boxes__box-outer" href="javascript:;">
+                                <div class="boxes__box">
+                                    <div class="boxes__box-left">
+                                        <div class="boxes__box-left-date">
+                                            <span class="boxes__box-left-date-num">12</span>
+                                            <span class="boxes__box-left-date-month">Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="boxes__box-right">
+                                        <div class="boxes__box-right-img-wrap">
+                                            <img class="boxes__box-right-img" src="img/box-1.png" alt="Box img">
+                                        </div>
+                                        <div class="boxes__box-right-content">
+                                            <span class="boxes__box-right-content-title">Bring a friend</span>
+                                            <p class="boxes__box-right-content-text">Share a one-day ES2 pass with a friend and introduce them to our community.</p>
+                                            <span class="boxes__box-right-content-time">8:00am - 10:00am</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                        </div>
                    </div>
                </div>
