@@ -1,0 +1,44 @@
+.basic-text {
+    background-color: $wild;
+    padding: 86px 0 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.basic-text__title {
+    margin-bottom: 20px;
+}
+
+.basic-text__link {
+    text-transform: uppercase;
+    color: $red;
+    font-style: italic;
+    position: relative;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+    &:hover {
+        color: $gray;
+        transition: $dur $ease;
+        text-decoration: none;
+
+        &::after {
+            color: $gray;
+            transition: $dur $ease;
+        }
+    }
+
+    &::after {
+        content: '>';
+        color: $red;
+        font-size: 19px;
+        position: absolute;
+        right: -25px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: $dur $ease;
+    }
+}

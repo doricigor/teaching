@@ -5,23 +5,67 @@
     min-height: 785px;
     display: flex;
     align-items: center;
+
+    @include mq(xl) {
+        min-height: 660px;
+    }
+
+    @include mq(lg) {
+        min-height: 520px;
+    }
+
+    @include mq(md) {
+        min-height: 400px;
+    }
+
+    @include mq(640px) {
+        min-height: 300px;
+    }
 }
 
 .banner__content {
-
+    @include mq(640px) {
+        background-color: rgba($white, .5);
+        text-align: center;
+        padding: 15px 0;
+    }
 }
 
 .banner__logo {
     margin-bottom: 57px;
+
+    @include mq(xl) {
+        margin-bottom: 35px;
+    }
+
+    @include mq(lg) {
+        max-width: 450px;
+        margin-bottom: 20px;
+    }
+
+    @include mq(md) {
+        max-width: 380px;   
+    }
+
+    @include mq(640px) {
+        display: none;
+    }
 }
 
 .banner__title {
     margin-bottom: 76px;
+
+    @include mq(xl) {
+        margin-bottom: 45px;
+    }
+
+    @include mq(lg) {
+        margin-bottom: 35px;
+    }
 }
 
 .banner__link {
     font-size: 19px;
-    letter-spacing: 1.27px;
     color: $gray;
     font-style: italic;
     position: relative;
@@ -32,6 +76,16 @@
     margin-left: 5px;
     transition: $dur $ease;
 
+    @include mq(lg) {
+        font-size: 17px;
+    }
+
+    @include mq(md) {
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-left: 0;
+    }
+
     &:hover {
         transition: $dur $ease;
         text-decoration: none;
@@ -40,6 +94,11 @@
         &::before {
             width: 100%;
             transition: $dur $ease;
+
+            @include mq(640px) {
+                left: 0;
+                transform: translateX(0);
+            }
         }
 
         &::after {
@@ -57,6 +116,11 @@
         left: -2px;
         top: -15px;
         transition: $dur $ease;
+
+        @include mq(640px) {
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 
     &::after {
@@ -68,5 +132,9 @@
         top: 50%;
         transform: translateY(-50%);
         transition: $dur $ease;
+
+        @include mq(640px) {
+            display: none;
+        }
     }
 }

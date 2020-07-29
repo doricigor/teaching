@@ -5,6 +5,22 @@
 	letter-spacing: 1.17px;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.1;
+
+	@include mq(xl) {
+		font-size: 75px;
+	}
+
+	@include mq(lg) {
+		font-size: 55px;
+	}
+
+	@include mq(md) {
+		font-size: 45px;
+	}
+
+	@include mq(640px) {
+		font-size: 35px;
+	}
 }
 
 .section-title {

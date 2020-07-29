@@ -4,6 +4,10 @@
 .nav__wrapper {
     padding: 37px 30px 37px 28px;
     position: relative;
+
+    @include mq(lg) {
+        display: none;
+    }
 }
 
 .nav {

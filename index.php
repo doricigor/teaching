@@ -255,6 +255,14 @@
                    </div>
                </div>
            </div>
+
+           <!-- Basic text -->
+           <div class="basic-text">
+                <div class="container">
+                    <h2 class="section-title section-title--small basic-text__title">Schedule a tour today.</h2>
+                    <a class="basic-text__link" href="javascript:;">Contact</a>
+                </div>
+           </div>
         </main>
     </div>
 <?php
