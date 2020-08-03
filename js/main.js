@@ -3,6 +3,7 @@
 "use strict"
 
 const main = {
+    
 
     // ------------- Variable -------------
 
@@ -11,6 +12,7 @@ const main = {
 
     init: function() {
         this.bindEvents();
+
     },
 
     // ------------- Events -------------

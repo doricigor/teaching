@@ -28,7 +28,20 @@
 	font-size: 77px;
 	font-weight: 700;
 	font-family: $font-second;
-    letter-spacing: 1.8px;
+	letter-spacing: 1.8px;
+	
+	@include mq(lg) {
+		font-size: 55px;
+		line-height: 1.1;
+	}
+
+	@include mq(md) {
+		font-size: 40px;
+	}
+
+	@include mq(640px) {
+		font-size: 35px;
+	}
 }
 
 .section-title--line {

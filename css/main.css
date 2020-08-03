@@ -155,6 +155,23 @@ input::-ms-clear {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1.8px; }
+  @media screen and (max-width: 991px) {
+    .section-title {
+      font-size: 55px;
+      line-height: 1.1; } }
+  @media screen and (max-width: lg) {
+    .section-title {
+      font-size: 55px;
+      line-height: 1.1; } }
+  @media screen and (max-width: 767px) {
+    .section-title {
+      font-size: 40px; } }
+  @media screen and (max-width: md) {
+    .section-title {
+      font-size: 40px; } }
+  @media screen and (max-width: 640px) {
+    .section-title {
+      font-size: 35px; } }
 
 .section-title--line {
   position: relative;
@@ -532,6 +549,18 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center; }
+  @media screen and (max-width: 991px) {
+    .basic-block {
+      padding: 60px 15px; } }
+  @media screen and (max-width: lg) {
+    .basic-block {
+      padding: 60px 15px; } }
+  @media screen and (max-width: 767px) {
+    .basic-block {
+      padding: 30px 15px; } }
+  @media screen and (max-width: md) {
+    .basic-block {
+      padding: 30px 15px; } }
 
 .basic-block__title {
   font-size: 80px;
@@ -540,6 +569,31 @@ html {
   font-weight: 500;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   margin-bottom: 10px; }
+  @media screen and (max-width: 1200px) {
+    .basic-block__title {
+      font-size: 70px; } }
+  @media screen and (max-width: 991px) {
+    .basic-block__title {
+      font-size: 60px; } }
+  @media screen and (max-width: lg) {
+    .basic-block__title {
+      font-size: 60px; } }
+  @media screen and (max-width: 767px) {
+    .basic-block__title {
+      font-size: 45px; } }
+  @media screen and (max-width: md) {
+    .basic-block__title {
+      font-size: 45px; } }
+  @media screen and (max-width: 640px) {
+    .basic-block__title {
+      font-size: 35px;
+      margin-bottom: 5px; } }
+  @media screen and (max-width: 576px) {
+    .basic-block__title {
+      font-size: 30px; } }
+  @media screen and (max-width: sm) {
+    .basic-block__title {
+      font-size: 30px; } }
   .basic-block__title sup {
     font-weight: 600;
     font-size: 80%;
@@ -561,6 +615,30 @@ html {
   letter-spacing: 2px;
   font-weight: 500;
   color: #fff; }
+  @media screen and (max-width: 1200px) {
+    .basic-block__subtitle {
+      font-size: 45px; } }
+  @media screen and (max-width: 991px) {
+    .basic-block__subtitle {
+      font-size: 37px; } }
+  @media screen and (max-width: lg) {
+    .basic-block__subtitle {
+      font-size: 37px; } }
+  @media screen and (max-width: 767px) {
+    .basic-block__subtitle {
+      font-size: 27px; } }
+  @media screen and (max-width: md) {
+    .basic-block__subtitle {
+      font-size: 27px; } }
+  @media screen and (max-width: 640px) {
+    .basic-block__subtitle {
+      font-size: 25px; } }
+  @media screen and (max-width: 576px) {
+    .basic-block__subtitle {
+      font-size: 20px; } }
+  @media screen and (max-width: sm) {
+    .basic-block__subtitle {
+      font-size: 20px; } }
 
 .story-block {
   background-color: #FBE7CF;
@@ -569,8 +647,29 @@ html {
 .story-block__container {
   padding: 0; }
 
+@media screen and (max-width: 991px) {
+  .story-block__img-wrapper {
+    padding-right: 0; } }
+
+@media screen and (max-width: lg) {
+  .story-block__img-wrapper {
+    padding-right: 0; } }
+
+@media screen and (max-width: 767px) {
+  .story-block__img-wrapper {
+    min-height: 300px;
+    display: flex;
+    justify-content: center; } }
+
+@media screen and (max-width: md) {
+  .story-block__img-wrapper {
+    min-height: 300px;
+    display: flex;
+    justify-content: center; } }
+
 .story-block__img {
-  max-width: 100%; }
+  max-width: 100%;
+  max-height: 100%; }
 
 .story-block__content-wrapper {
   align-items: center;
@@ -578,14 +677,59 @@ html {
   padding-left: 153px;
   padding-right: 50px;
   position: relative; }
+  @media screen and (max-width: 1200px) {
+    .story-block__content-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+      justify-content: center; } }
+  @media screen and (max-width: 991px) {
+    .story-block__content-wrapper {
+      padding: 0 15px; } }
+  @media screen and (max-width: lg) {
+    .story-block__content-wrapper {
+      padding: 0 15px; } }
+
+@media screen and (max-width: 991px) {
+  .story-block__content {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media screen and (max-width: lg) {
+  .story-block__content {
+    padding-right: 15px;
+    padding-left: 15px; } }
 
 .story-block__content-mark {
   position: absolute;
   top: 0;
   right: 10px; }
+  @media screen and (max-width: 1200px) {
+    .story-block__content-mark {
+      width: 300px; } }
+  @media screen and (max-width: 991px) {
+    .story-block__content-mark {
+      width: 200px; } }
+  @media screen and (max-width: lg) {
+    .story-block__content-mark {
+      width: 200px; } }
+  @media screen and (max-width: 767px) {
+    .story-block__content-mark {
+      width: 150px; } }
+  @media screen and (max-width: md) {
+    .story-block__content-mark {
+      width: 150px; } }
 
 .story-block__content-title {
   margin-bottom: 96px; }
+  @media screen and (max-width: 1024px) {
+    .story-block__content-title {
+      margin-bottom: 50px; } }
+  @media screen and (max-width: 991px) {
+    .story-block__content-title {
+      margin-bottom: 30px; } }
+  @media screen and (max-width: lg) {
+    .story-block__content-title {
+      margin-bottom: 30px; } }
 
 .story-block__content-subtitle {
   display: block;
@@ -603,6 +747,22 @@ html {
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 36px; }
+  @media screen and (max-width: 991px) {
+    .story-block__content-text {
+      line-height: 1.4;
+      margin-bottom: 20px;
+      max-width: 100%; } }
+  @media screen and (max-width: lg) {
+    .story-block__content-text {
+      line-height: 1.4;
+      margin-bottom: 20px;
+      max-width: 100%; } }
+  @media screen and (max-width: 767px) {
+    .story-block__content-text {
+      max-width: 85%; } }
+  @media screen and (max-width: md) {
+    .story-block__content-text {
+      max-width: 85%; } }
 
 .story-block__content-link {
   font-size: 20px;
@@ -613,6 +773,12 @@ html {
   font-style: italic;
   position: relative;
   transition: 350ms ease; }
+  @media screen and (max-width: 991px) {
+    .story-block__content-link {
+      font-size: 18px; } }
+  @media screen and (max-width: lg) {
+    .story-block__content-link {
+      font-size: 18px; } }
   .story-block__content-link:hover {
     color: #4a4a4a;
     transition: 350ms ease;
