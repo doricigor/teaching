@@ -42,6 +42,10 @@
 	@include mq(640px) {
 		font-size: 35px;
 	}
+
+	@include mq(sm) {
+		font-size: 30px;
+	}
 }
 
 .section-title--line {
@@ -56,13 +60,30 @@
 		position: absolute;
 		left: 6px;
 		bottom: -14px;
-        transition: $dur $ease;
+		transition: $dur $ease;
+		
+		@include mq(sm) {
+			left: 50%;
+			transform: translateX(-50%);
+		}
     }
 }
 
 .section-title--small {
 	font-size: 46px;
-    letter-spacing: 2.17px;
+	letter-spacing: 2.17px;
+	
+	@include mq(md) {
+		font-size: 40px;
+	}
+
+	@include mq(640px) {
+		font-size: 35px;
+	}
+
+	@include mq(sm) {
+		font-size: 30px;
+	}
 
 	sup {
 		color: $red;

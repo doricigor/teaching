@@ -70,7 +70,7 @@
                     <div class="list-section__container">
                         <h2 class="list-section__title section-title section-title--small">ES<sup>2</sup> Features</h2>
                         <div class="row list-section__row">
-                            <div class="col-lg-3 list-section__item-wrap">
+                            <div class="col-lg-3 col-md-6 list-section__item-wrap">
                                 <div class="list-section__item">
                                     <div class="list-section__item-img-wrap">
                                         <img class="list-section__item-img" src="img/list-icon-1.png" alt="list img">
@@ -85,7 +85,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 list-section__item-wrap">
+                            <div class="col-lg-3 col-md-6 list-section__item-wrap">
                                 <div class="list-section__item">
                                     <div class="list-section__item-img-wrap">
                                         <img class="list-section__item-img" src="img/list-icon-2.png" alt="list img">
@@ -100,7 +100,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 list-section__item-wrap">
+                            <div class="col-lg-3 col-md-6 list-section__item-wrap">
                                 <div class="list-section__item">
                                     <div class="list-section__item-img-wrap">
                                         <img class="list-section__item-img" src="img/list-icon-3.png" alt="list img">
@@ -115,7 +115,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 list-section__item-wrap">
+                            <div class="col-lg-3 col-md-6 list-section__item-wrap">
                                 <div class="list-section__item">
                                     <div class="list-section__item-img-wrap">
                                         <img class="list-section__item-img" src="img/list-icon-4.png" alt="list img">

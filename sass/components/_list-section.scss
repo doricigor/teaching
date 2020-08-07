@@ -3,8 +3,12 @@
 }
 
 .list-section__container {
-    padding: 84px 15px 93px;
+    padding: 84px 15px 63px;
     position: relative;
+
+    @include mq(md) {
+        padding: 60px 15px 50px;
+    }
 
     &::before,
     &::after {
@@ -36,26 +40,72 @@
     background-color: $white;
     padding: 0 28px;
     z-index: 2;
+
+    @include mq(lg) {
+        top: -24px;
+    }
+
+    @include mq(md) {
+        letter-spacing: 0;
+    }
+
+    @include mq(640px) {
+        top: -14px;
+        font-size: 25px;
+        padding: 0 15px;
+    }
+
+    @include mq(400px) {
+        top: -24px;
+        text-align: center;
+    }
 }
 
 .list-section__row {
-
+    justify-content: center;
 }
 
 .list-section__item-wrap {
+    min-width: 300px;
+    margin-bottom: 30px;
 
+    @include mq(md) {
+        max-width: 50%;
+    }
+
+    @include mq(640px) {
+        max-width: 100%;
+    }
 }
 
 .list-section__item {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include mq(640px) {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .list-section__item-img-wrap {
     width: 77px;
     height: 77px;
     margin-bottom: 22px;
+
+    @include mq(md) {
+        margin-bottom: 10px;
+    }
+
+    @include mq(640px) {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
 }
 
 .list-section__item-img {
@@ -71,6 +121,16 @@
     text-align: center;
     margin-bottom: 11px;
     min-height: 66px;
+
+    @include mq(md) {
+        min-height: 50px;
+    }
+
+    @include mq(640px) {
+        order: 1;
+        width: 100%;
+        min-height: 15px;
+    }
 }
 
 .list-section__item-title {
@@ -82,6 +142,12 @@
     text-transform: uppercase;
     font-style: italic;
     line-height: 18px;
+
+    @include mq(md) {
+        br {
+            display: none;
+        }
+    }
 }
 
 .list-section__item-list {
@@ -89,6 +155,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @include mq(640px) {
+        order: 3;
+        width: 65%;
+        align-items: flex-start;
+    }
 }
 
 .list-section__item-list-item {
@@ -101,6 +173,11 @@
     position: relative;
     text-align: center;
     line-height: 1.58;
+
+    @include mq(640px) {
+        text-align: left;
+        line-height: 1.1;
+    }
     
     &:not(:last-child) {
         margin-bottom: 9px;
