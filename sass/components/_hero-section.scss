@@ -1,20 +1,53 @@
 .hero-section {
     padding-top: 26px;
+
+    @include mq(640px) {
+        padding-top: 10px;
+    }
 }
 
 .hero-section__container {
     text-align: center;
     margin-bottom: 75px;
+
+    @include mq(md) {
+        margin-bottom: 45px;
+    }
+
+    @include mq(640px) {
+        margin-bottom: 15px;
+    }
 }
 
 .hero-section__title {
     margin-bottom: 27px;
+
+    @include mq(640px) {
+        margin-bottom: 20px;
+    }
 }
 
 .hero-section__text {
     letter-spacing: 2px;
     line-height: 1.7;
     margin-bottom: 38px;
+
+    @include mq(lg) {
+        br {
+            display: none;
+        }
+    }
+
+    @include mq(md) {
+        margin-bottom: 25px;
+    }
+
+    @include mq(640px) {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
 }
 
 .hero-section__text-link {
@@ -51,6 +84,10 @@
     color: $red;
     transition: $dur $ease;
     position: relative;
+
+    @include mq(md) {
+        font-size: 18px;
+    }
 
     &:hover {
         color: $gray;

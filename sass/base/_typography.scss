@@ -79,6 +79,7 @@
 
 	@include mq(640px) {
 		font-size: 35px;
+		letter-spacing: .17px;
 	}
 
 	@include mq(sm) {

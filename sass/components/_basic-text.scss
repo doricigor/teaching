@@ -5,6 +5,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    @include mq(lg) {
+        padding: 65px 0;
+    }
+
+    @include mq(md) {
+        padding: 45px 0;
+    }
+
+    @include mq(640px) {
+        padding: 30px 0;
+    }
 }
 
 .basic-text__title {
@@ -19,6 +31,10 @@
     font-size: 22px;
     letter-spacing: 1px;
     font-weight: 500;
+
+    @include mq(md) {
+        font-size: 18px;
+    }
 
     &:hover {
         color: $gray;
