@@ -1302,24 +1302,66 @@ html {
 
 .logo-section {
   padding: 65px 0 121px; }
+  .logo-section .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto 0; }
+    .logo-section .slick-dots li {
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+      border: 1px solid #000;
+      margin: 0 5px;
+      transition: 350ms ease; }
+    .logo-section .slick-dots li.slick-active {
+      box-shadow: 0px 0px 8px 0px black;
+      transition: 350ms ease; }
+    .logo-section .slick-dots button {
+      opacity: 0;
+      height: 100%;
+      width: 100%; }
 
 .logo-section__title {
   text-align: center;
   margin-bottom: 80px; }
 
-.logo-section__wrap {
-  padding-left: 48px;
-  padding-right: 26px; }
-
 .logo-section__box {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; }
+  min-height: 150px; }
 
 .logo-section__box-img {
   max-width: 100%;
   max-height: 100%; }
+
+.logo-section__slider {
+  opacity: 0; }
+
+.logo-section__slider.slick-initialized {
+  opacity: 1;
+  transition: 350ms ease; }
+
+.logo-section__slider-arrow {
+  height: 45px;
+  width: 45px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 350ms ease; }
+  .logo-section__slider-arrow:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 0px black; }
+  .logo-section__slider-arrow i {
+    font-family: "FontAwesome";
+    color: #000;
+    font-size: 20px;
+    font-style: normal; }
 
 .boxes {
   padding: 40px 0 52px; }

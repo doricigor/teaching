@@ -153,28 +153,43 @@
                <div class="container">
                    <h2 class="section-title section-title--small logo-section__title">Our members</h2>
                    <div class="logo-section__wrap">
-                        <div class="row">
-                            <div class="col-lg-3 logo-section__box-wrap">
+                       <div class="logo-section__slider-arrow-wrap">
+                           <span class="logo-section__slider-arrow js-arrow-left">
+                                <i class="fas fa-arrow-left"></i>
+                           </span>
+                       </div>
+                        <div class="logo-section__slider">
+                            <div class="logo-section__box-wrap">
                                 <div class="logo-section__box">
                                     <img class="logo-section__box-img" src="img/logo-1.png" alt="Logo img">
                                 </div>
                             </div>
-                            <div class="col-lg-3 logo-section__box-wrap">
+                            <div class="logo-section__box-wrap">
                                 <div class="logo-section__box">
                                     <img class="logo-section__box-img" src="img/logo-2.png" alt="Logo img">
                                 </div>
                             </div>
-                            <div class="col-lg-3 logo-section__box-wrap">
+                            <div class="logo-section__box-wrap">
                                 <div class="logo-section__box">
                                     <img class="logo-section__box-img" src="img/logo-3.png" alt="Logo img">
                                 </div>
                             </div>
-                            <div class="col-lg-3 logo-section__box-wrap">
+                            <div class="logo-section__box-wrap">
+                                <div class="logo-section__box">
+                                    <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
+                                </div>
+                            </div>
+                            <div class="logo-section__box-wrap">
                                 <div class="logo-section__box">
                                     <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
                                 </div>
                             </div>
                         </div>
+                        <div class="logo-section__slider-arrow-wrap">
+                           <span class="logo-section__slider-arrow js-arrow-right">
+                                <i class="fas fa-arrow-right"></i>
+                           </span>
+                       </div>
                    </div>
                </div>
            </div>
