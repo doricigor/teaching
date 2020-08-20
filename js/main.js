@@ -62,4 +62,22 @@ $(document).ready(function() {
             }
         ]
     });
+
+    // Menjamo kontent u spanu
+
+    $(window).on('resize', function() {
+        if (window.innerWidth < 992) {
+            $('.boxes__box-left-date-month').html('September');
+        } else {
+            $('.boxes__box-left-date-month').html('Sep');
+        }
+    });
+    
+    if (window.innerWidth < 992) {
+        $('.boxes__box-left-date-month').html('September');
+    } else {
+        $('.boxes__box-left-date-month').html('Sep');
+    }
+
+   
 });

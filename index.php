@@ -153,39 +153,41 @@
                <div class="container">
                    <h2 class="section-title section-title--small logo-section__title">Our members</h2>
                    <div class="logo-section__wrap">
-                       <div class="logo-section__slider-arrow-wrap">
+                       <div class="logo-section__slider-arrow-wrap logo-section__slider-arrow-wrap--left">
                            <span class="logo-section__slider-arrow js-arrow-left">
                                 <i class="fas fa-arrow-left"></i>
                            </span>
                        </div>
-                        <div class="logo-section__slider">
-                            <div class="logo-section__box-wrap">
-                                <div class="logo-section__box">
-                                    <img class="logo-section__box-img" src="img/logo-1.png" alt="Logo img">
+                        <div class="logo-section__slider-wrap">
+                            <div class="logo-section__slider">
+                                <div class="logo-section__box-wrap">
+                                    <div class="logo-section__box">
+                                        <img class="logo-section__box-img" src="img/logo-1.png" alt="Logo img">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="logo-section__box-wrap">
-                                <div class="logo-section__box">
-                                    <img class="logo-section__box-img" src="img/logo-2.png" alt="Logo img">
+                                <div class="logo-section__box-wrap">
+                                    <div class="logo-section__box">
+                                        <img class="logo-section__box-img" src="img/logo-2.png" alt="Logo img">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="logo-section__box-wrap">
-                                <div class="logo-section__box">
-                                    <img class="logo-section__box-img" src="img/logo-3.png" alt="Logo img">
+                                <div class="logo-section__box-wrap">
+                                    <div class="logo-section__box">
+                                        <img class="logo-section__box-img" src="img/logo-3.png" alt="Logo img">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="logo-section__box-wrap">
-                                <div class="logo-section__box">
-                                    <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
+                                <div class="logo-section__box-wrap">
+                                    <div class="logo-section__box">
+                                        <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="logo-section__box-wrap">
-                                <div class="logo-section__box">
-                                    <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
+                                <div class="logo-section__box-wrap">
+                                    <div class="logo-section__box">
+                                        <img class="logo-section__box-img" src="img/logo-4.png" alt="Logo img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="logo-section__slider-arrow-wrap">
+                        <div class="logo-section__slider-arrow-wrap logo-section__slider-arrow-wrap--right">
                            <span class="logo-section__slider-arrow js-arrow-right">
                                 <i class="fas fa-arrow-right"></i>
                            </span>
@@ -201,7 +203,7 @@
                         <a class="boxes__link" href="javascript:;">All events</a>
                    </div>
                    <div class="row boxes__row">
-                       <div class="col-lg-4 boxes__box-wrap">
+                       <div class="col-lg-4 col-md-6 boxes__box-wrap">
                            <a class="boxes__box-outer" href="javascript:;">
                                 <div class="boxes__box">
                                     <div class="boxes__box-left">
@@ -223,7 +225,7 @@
                                 </div>
                            </a>
                        </div>
-                       <div class="col-lg-4 boxes__box-wrap">
+                       <div class="col-lg-4 col-md-6 boxes__box-wrap">
                             <a class="boxes__box-outer" href="javascript:;">
                                 <div class="boxes__box">
                                     <div class="boxes__box-left">
@@ -245,7 +247,7 @@
                                 </div>
                             </a>
                        </div>
-                       <div class="col-lg-4 boxes__box-wrap">
+                       <div class="col-lg-4 col-md-6 boxes__box-wrap">
                             <a class="boxes__box-outer" href="javascript:;">
                                 <div class="boxes__box">
                                     <div class="boxes__box-left">
