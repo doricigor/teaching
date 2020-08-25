@@ -80,4 +80,9 @@ $(document).ready(function() {
     }
 
    
+    // Toggle hamburger menu
+    $('.js-hamburger').on('click', function() {
+        $('.js-nav').toggleClass('nav__wrapper--active');
+        $('body').toggleClass('menu-open');
+    });
 });

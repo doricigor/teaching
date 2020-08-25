@@ -11,6 +11,14 @@ html {
 	margin: 0;
 }
 
+body {
+	overflow-x: hidden;
+}
+
+.menu-open {
+	overflow: hidden;
+}
+
 .container {
 	@media screen and (min-width: 1200px) {
         max-width: 1460px;

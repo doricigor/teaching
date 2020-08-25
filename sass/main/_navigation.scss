@@ -6,21 +6,54 @@
     position: relative;
 
     @include mq(lg) {
-        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300px;
+        padding: 70px 15px;
+        background-color: $white;
+        height: 100vh;
+        transform: translateX(100%);
+        transition: $dur $ease;
     }
 }
 
-.nav {
+.nav__wrapper--active {
+    transform: translateX(0);
+    transition: $dur $ease;
+}
 
+.nav {
+    @include mq(lg) {
+        justify-content: center;
+    }
 }
 
 .nav__list {
     display: flex;
+
+    @include mq(lg) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 .nav__list-item {
     &:not(:last-child) {
         margin-right: 48px;
+
+        @include mq(lg) {
+            margin-right: 0;
+        }
+    }
+    
+    @include mq(lg) {
+        border-bottom: 1px solid rgba($gray, .5);
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
     }
 }
 
@@ -46,6 +79,17 @@
     right: -73px;
     top: 90px;
     transform: rotate(90deg);
+
+    @include mq(lg) {
+        position: static;
+        transform: rotate(0);
+        right: auto;
+        top: auto;
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
     
     span {
         color: $red;

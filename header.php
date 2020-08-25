@@ -11,7 +11,7 @@
 <body>
 <header class="header">
     <div class="container container--alt">
-        <div class="nav__wrapper">
+        <div class="nav__wrapper js-nav">
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__list-item">
@@ -37,5 +37,6 @@
                 <a class="nav__login-link" href="javascript:;">Register</a>
             </div>
         </div>
+        <a class="hamburger js-hamburger" href="javascript:;"><span></span></a>
     </div>
 </header>

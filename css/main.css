@@ -233,6 +233,12 @@ html {
   padding: 0;
   margin: 0; }
 
+body {
+  overflow-x: hidden; }
+
+.menu-open {
+  overflow: hidden; }
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1460px; } }
@@ -269,6 +275,56 @@ html {
     color: #000;
     transition: 350ms ease; }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 19px;
+  position: relative; }
+  @media screen and (max-width: 991px) {
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px; } }
+  @media screen and (max-width: lg) {
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px; } }
+  .hamburger::before, .hamburger::after {
+    content: '';
+    transition: 350ms ease; }
+  .hamburger::before, .hamburger::after,
+  .hamburger span {
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    display: block;
+    background-color: #4a4a4a; }
+  .hamburger::after {
+    top: 0;
+    left: 0; }
+  .hamburger::before {
+    bottom: 0;
+    right: 0; }
+  .hamburger span {
+    top: 50%;
+    margin-top: -1.5px;
+    transition: 350ms ease; }
+    .hamburger span::before {
+      content: '';
+      background-color: #4a4a4a;
+      width: 100%;
+      height: 3px;
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      transition: 350ms ease; }
+
 /*--------------------------------------------------------------
 # Main
 --------------------------------------------------------------*/
@@ -277,6 +333,16 @@ html {
 --------------------------------------------------------------*/
 .header {
   z-index: 10; }
+  @media screen and (max-width: 991px) {
+    .header {
+      position: absolute;
+      width: 100%;
+      height: 50px; } }
+  @media screen and (max-width: lg) {
+    .header {
+      position: absolute;
+      width: 100%;
+      height: 50px; } }
 
 /*--------------------------------------------------------------
 ## Navigation
@@ -286,16 +352,76 @@ html {
   position: relative; }
   @media screen and (max-width: 991px) {
     .nav__wrapper {
-      display: none; } }
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 300px;
+      padding: 70px 15px;
+      background-color: #fff;
+      height: 100vh;
+      transform: translateX(100%);
+      transition: 350ms ease; } }
   @media screen and (max-width: lg) {
     .nav__wrapper {
-      display: none; } }
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 300px;
+      padding: 70px 15px;
+      background-color: #fff;
+      height: 100vh;
+      transform: translateX(100%);
+      transition: 350ms ease; } }
+
+.nav__wrapper--active {
+  transform: translateX(0);
+  transition: 350ms ease; }
+
+@media screen and (max-width: 991px) {
+  .nav {
+    justify-content: center; } }
+
+@media screen and (max-width: lg) {
+  .nav {
+    justify-content: center; } }
 
 .nav__list {
   display: flex; }
+  @media screen and (max-width: 991px) {
+    .nav__list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%; } }
+  @media screen and (max-width: lg) {
+    .nav__list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%; } }
 
 .nav__list-item:not(:last-child) {
   margin-right: 48px; }
+  @media screen and (max-width: 991px) {
+    .nav__list-item:not(:last-child) {
+      margin-right: 0; } }
+  @media screen and (max-width: lg) {
+    .nav__list-item:not(:last-child) {
+      margin-right: 0; } }
+
+@media screen and (max-width: 991px) {
+  .nav__list-item {
+    border-bottom: 1px solid rgba(74, 74, 74, 0.5);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center; } }
+
+@media screen and (max-width: lg) {
+  .nav__list-item {
+    border-bottom: 1px solid rgba(74, 74, 74, 0.5);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center; } }
 
 .nav__list-item-link, .nav__login-link {
   color: #4a4a4a;
@@ -316,6 +442,26 @@ html {
   right: -73px;
   top: 90px;
   transform: rotate(90deg); }
+  @media screen and (max-width: 991px) {
+    .nav__login {
+      position: static;
+      transform: rotate(0);
+      right: auto;
+      top: auto;
+      text-align: center;
+      width: 100%;
+      padding: 15px 0;
+      text-align: center; } }
+  @media screen and (max-width: lg) {
+    .nav__login {
+      position: static;
+      transform: rotate(0);
+      right: auto;
+      top: auto;
+      text-align: center;
+      width: 100%;
+      padding: 15px 0;
+      text-align: center; } }
   .nav__login span {
     color: #d0021b;
     font-weight: 700;
