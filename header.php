@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<div class="overflow-custom">
 <header class="header">
     <div class="container container--alt">
         <div class="nav__wrapper js-nav">

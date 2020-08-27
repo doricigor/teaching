@@ -56,3 +56,31 @@
         }
     }
 }
+
+.hamburger--active {
+    &::before,
+    &::after {
+        width: 0;
+        transition: $dur $ease;
+    }
+
+    &::before {
+        right: 0;
+        left: auto;
+    }
+
+    &::after {
+        right: auto;
+        left: 0;
+    }
+
+    span {
+        transform: rotate(45deg);
+        transition: $dur $ease;
+
+        &::before {
+            transition: $dur $ease;
+            transform: rotate(-90deg);
+        }
+    }
+}

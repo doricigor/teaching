@@ -65,23 +65,35 @@ $(document).ready(function() {
 
     // Menjamo kontent u spanu
 
+    // On resize
     $(window).on('resize', function() {
         if (window.innerWidth < 992) {
             $('.boxes__box-left-date-month').html('September');
         } else {
             $('.boxes__box-left-date-month').html('Sep');
         }
+
+        if (window.innerWidth < 641) {
+            $('.header').append($('.banner__logo'));
+        } else {
+            $('.banner__content').prepend($('.banner__logo'));
+        }
     });
     
+    // On load
     if (window.innerWidth < 992) {
         $('.boxes__box-left-date-month').html('September');
     } else {
         $('.boxes__box-left-date-month').html('Sep');
     }
 
-   
+    if (window.innerWidth < 641) {
+        $('.header').prepend($('.banner__logo'));
+    }
+
     // Toggle hamburger menu
     $('.js-hamburger').on('click', function() {
+        $(this).toggleClass('hamburger--active');
         $('.js-nav').toggleClass('nav__wrapper--active');
         $('body').toggleClass('menu-open');
     });

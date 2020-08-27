@@ -48,7 +48,8 @@
     }
 
     @include mq(640px) {
-        display: none;
+        max-width: 200px;
+        margin-bottom: 0;
     }
 }
 
